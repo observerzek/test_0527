@@ -26,6 +26,11 @@ void* ThreadPool::allocate(size_t bytes){
     return memory;
 }
 
+void funtion(){
+    
+}
+
+
 void* ThreadPool::getMemoryFromCenter(size_t bytes){
     size_t index = SizeClass::getIndex(bytes);
     size_t nums_block;
